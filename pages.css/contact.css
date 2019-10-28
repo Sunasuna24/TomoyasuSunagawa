@@ -1,0 +1,160 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ここからheader */
+header {
+  background-color: white;
+  height: 70px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header-logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.header-list {
+  float: right;
+  line-height: 70px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  display: inline-block;
+}
+
+
+
+/* ここからはmain */
+main {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.container h1 {
+  padding: 20px 0 40px;
+  font-size: 100px;
+  font-weight: lighter;
+}
+
+.container h5 {
+  padding: 20px 0 30px;
+  margin-bottom: 20px;
+}
+
+.forms {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.form {
+  text-align: left;
+  padding: 30px;
+  width: 100%;
+}
+
+.list {
+  margin-bottom: 60px;
+}
+
+dt {
+  font-size: 20px;
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+}
+
+input {
+  border-radius: 3px;
+}
+
+button {
+  font-weight: bold;
+  padding: 20px 60px;
+  background-color: #248;
+  color: white;
+  border-style: none;
+  margin: 100px 0 60px !important;
+}
+
+button:hover {
+  background-color: #24d;
+  color: white;
+}
+
+
+
+/* ここからはfooter */
+footer {
+  background-color: black;
+  height: 190px;
+}
+
+.footer-lists {
+  height: 80px;
+}
+
+.footer-list {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.footer-lists li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+  margin: 0 5px;
+}
+
+.footer-lists a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-cr {
+  text-align: center;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.footer-logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.copy-right {
+  margin-top: 5px;
+  color: white;
+}

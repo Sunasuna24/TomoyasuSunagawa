@@ -1,0 +1,385 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ここからheader */
+header {
+  background-color: white;
+  height: 70px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header-logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.header-list {
+  float: right;
+  line-height: 70px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  display: inline-block;
+}
+
+
+/* main */
+
+/* one-phrase */
+.one-phrase {
+  padding: 175px 0;
+  margin-top: 70px;
+  position: relative;
+}
+
+.one-phrase p {
+  font-family: "HG正楷書体-PRO";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 29px;
+  text-align: center;
+}
+
+
+/* ここからはcatch copy */
+.catch-copy {
+  background-image: url(../img/青空.jpg);
+  padding: 250px 0;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+}
+
+.container p {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+
+/* ここからはconcept */
+.concept-title {
+  padding: 150px 0;
+  position: relative;
+}
+
+.concept-title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman";
+  font-size: 70px;
+}
+
+.concept-sent {
+  padding: 20px 0 150px;
+  background-image: url(../img/コンセプトの背景.jpeg);
+  background-size: cover;
+}
+
+.concept-sent p {
+  text-align: center;
+  font-family: "Yu Mincho Light";
+  font-size: 20px;
+}
+
+.concept-txt1 {
+  padding-top: 130px;
+}
+
+.concept-txt2 {
+  margin-top: 100px;
+}
+
+.concept-txt3 {
+  margin-top: 100px;
+}
+
+.concept-txt4 {
+  margin-top: 220px;
+}
+
+
+/* ここからはintroduction導入 */
+.introduction {
+  height: 200px;
+}
+
+.int-container {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+.int-container p {
+  letter-spacing: 4px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* ここからはhobbies */
+.hobbies {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.heading {
+  margin: 40px 20px;
+}
+
+.heading h1 {
+  font-weight: lighter;
+}
+
+.hobby {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.point h2 {
+  padding: 15px 15px 0;
+}
+
+.point h5 {
+  margin: 10px 0 15px;
+  font-weight: lighter;
+}
+
+.point img {
+  height: 128px;
+  width: 128px;
+  margin-bottom: 10px;
+}
+
+.point p {
+  text-align: left;
+}
+
+
+/* ここからはdata */
+.data {
+  background-color: #e9e9e9;
+}
+
+.data-theme {
+  padding: 150px 0;
+  background-image:url(../img/テーブルの画像.jpeg);
+  background-size: cover;
+}
+
+.data-theme h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.data-intro {
+  margin: 50px 0 15px;
+}
+
+.data-intro h2 {
+  text-align: center;
+  line-height: 100px;
+}
+
+.datas6 {
+  color: #444;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+
+}
+
+.datas6::before, .datas6::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #444;
+  display: block;
+}
+
+.datas6::before {
+  margin-right: .4em;
+}
+
+.datas6::after {
+  margin-left: .4em;
+}
+
+.data-in {
+  text-align: center;
+  height: 900px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container2 {
+  float: left;
+  margin-bottom: 30px;
+  width: auto;
+}
+
+.contents {
+  background-color: white;
+  height: 280px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.data-sent {
+  padding-top: 15px;
+}
+
+figure {
+  margin: 16px 40px 0;
+}
+
+.data-logo {
+  border-radius: 8px;
+}
+
+.box {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents p {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/* ここからはfollow us */
+.follow-us {
+  height: 250px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.follow-us p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.follow-btn {
+  margin-top: 70px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white !important;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.instagram {
+  background-color: #d93177 !important;
+}
+
+.facebook {
+  background-color: #3b5998 !important;
+}
+
+.twitter {
+  background-color: #55acee !important;
+}
+
+
+/* ここからはfooter */
+footer {
+  background-color: black;
+  height: 190px;
+}
+
+.footer-lists {
+  height: 80px;
+}
+
+.footer-list {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.footer-lists li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+  margin: 0 5px;
+}
+
+.footer-lists a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-cr {
+  text-align: center;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.footer-logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.copy-right {
+  margin-top: 5px;
+  color: white;
+}
