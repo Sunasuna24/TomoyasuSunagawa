@@ -51,6 +51,8 @@ header {
 }
 
 
+
+
 /* main */
 
 /* one-phrase */
@@ -199,6 +201,34 @@ header {
 .point p {
   text-align: left;
 }
+
+
+/* ここからworks */
+.title {
+}
+
+.title h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.work {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.pieces {
+  margin: 0 auto;
+}
+
+.skill dt {
+  float: left;
+}
+
+.skill dd {
+  margin-left: 150px;
+}
+
 
 
 /* ここからはdata */

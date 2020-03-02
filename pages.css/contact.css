@@ -68,9 +68,13 @@ main {
   font-weight: lighter;
 }
 
-.container h5 {
-  padding: 20px 0 30px;
-  margin-bottom: 20px;
+.explanation {
+  margin: 20px 0 30px;
+}
+
+.explanation h5 {
+  padding-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .forms {
